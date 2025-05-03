@@ -1,3 +1,10 @@
-body {
-    background-color: grey;
+@use 'header';
+@use 'info_bar';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
 }
