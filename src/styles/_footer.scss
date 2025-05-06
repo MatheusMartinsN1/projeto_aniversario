@@ -1,0 +1,43 @@
+@use 'variaveis';
+
+.footer {
+    background-color: #435c75;
+
+    &__container {
+
+        h3 {
+            text-align: center;
+            padding: 18px 0px;
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        &__sociais {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+
+            li {
+                background-color: variaveis.$buttonColor;
+                border-radius: 4px;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+                a {
+                    color: #fff;
+                }
+
+                img {
+                    width: 28px;
+                    margin: 0px 6px;
+                }
+            }
+        }
+    }
+}

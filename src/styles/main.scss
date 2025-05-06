@@ -1,5 +1,8 @@
 @use 'header';
 @use 'info_bar';
+@use 'sections';
+@use 'footer';
+@use 'variaveis';
 
 * {
     margin: 0px;
@@ -7,4 +10,5 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
+    text-decoration: none;
 }
