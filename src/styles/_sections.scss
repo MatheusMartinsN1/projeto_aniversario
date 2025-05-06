@@ -44,18 +44,20 @@
         }
     }
 
-    @media (max-width: 1024px) {
+    //Mobile Media Query
+    @media (max-width: 767px) {
 
         &__container {
 
             p {
-                padding: 10px 18px;
+                padding: 10px 16px;
             }
 
             &__item {
                 display: block;
 
                 img {
+                    display: block;
                     width: 100vw;
                     border-top-right-radius: 8px;
                     border-bottom-left-radius: 0px;
@@ -67,7 +69,6 @@
                     border-top-right-radius: 0px;
                     border-bottom-right-radius: 8px;
                     border-bottom-left-radius: 8px;
-                    padding: 14px 8px 12px 8px;
                 }
             }
         }

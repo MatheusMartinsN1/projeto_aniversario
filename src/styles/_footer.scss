@@ -40,4 +40,16 @@
             }
         }
     }
+
+    //Mobile Media Query
+    @media (max-width: 767px) {
+
+        &__container {
+
+            &__sociais {
+                gap: 6px;
+                justify-content: center;
+            }
+        }
+    }
 }

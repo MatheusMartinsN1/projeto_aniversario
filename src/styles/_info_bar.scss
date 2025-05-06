@@ -30,8 +30,10 @@
         background-color: variaveis.$buttonColor;
     }
 
-    @media (max-width: 768px) {
+    //Mobile Media Query
+    @media (max-width: 767px) {
         display: block;
+        margin-top: 100px;
 
         &__infos {
             display: block;
@@ -43,6 +45,18 @@
                 strong {
                     margin-top: 18px;
                 }
+            }
+        }
+    }
+
+    //tablet Media Query
+    @media (min-width: 768) and (max-width: 992px) {
+
+        &__infos {
+
+
+            &__item {
+                text-align: left;
             }
         }
     }
