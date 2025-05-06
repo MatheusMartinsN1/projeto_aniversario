@@ -31,5 +31,3 @@ exports.default = function() {
     gulp.watch('./src/images/*' , {ignoreInitial: false} , gulp.series(images))
     gulp.watch('./src/scripts/*.js' , {ignoreInitial: false} , gulp.series(scripts))
 }
-
-exports.default = gulp.parallel(styles, images, scripts)
